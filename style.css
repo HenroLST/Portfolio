@@ -1,0 +1,32 @@
+p {color:black; 
+}
+
+body {background-color:teal;
+}
+
+h1 {color:white;
+}
+
+li {color:whitesmoke;
+}
+
+a {color:antiquewhite;
+}
+
+img {color:wheat;
+}
+
+#title{color:white;
+    background-color: black;
+    padding:25px;
+    border: 25px;
+    border-color: white;
+    margin: 25px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.center{
+    text-align: center;
+}
