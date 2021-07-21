@@ -1,14 +1,17 @@
-p {color:hotpink; 
+p {color:gray; 
 }
 
-body {background-color: cyan;
+body {background-color:black;
 }
 
-h1 {color:blueviolet;
+h1 {color:white;
 }
 
-li {color: indigo;
+li {color:whitesmoke;
 }
 
-a {color: indianred;
+a {color:antiquewhite;
+}
+
+img {color:wheat;
 }
