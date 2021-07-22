@@ -18,12 +18,10 @@ img {color:wheat;
 
 #title{color:white;
     background-color: black;
-    padding:25px;
-    border: 25px;
-    border-color: white;
-    margin: 25px;
     text-align: center;
     font-size: 50px;
+    padding-top:25px;
+    padding-bottom:25px;
 
 }
 
@@ -31,8 +29,17 @@ img {color:wheat;
     text-align: center;
 }
 
-.boxed{
-    text-align:center;
-    border: 1px solid blue;
+.bar{
+    background-color:blueviolet;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+#StartBar{
+    padding-right:32px;
+    padding-left:25px
 
 }
