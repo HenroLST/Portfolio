@@ -30,3 +30,9 @@ img {color:wheat;
 .center{
     text-align: center;
 }
+
+.boxed{
+    text-align:center;
+    border: 1px solid blue;
+
+}
