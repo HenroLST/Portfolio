@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Pick r, p, or s</h1>
+</head>
+<body>
+    <script type = "text/javascript">
+
+        document.onkeyup = function(event){
+            var keyPressed = event.key
+            var myArray = ( "1", "2", "3")
+            var compPick = (Math.floor(Math.random()*myArray))
+            var wins = 0
+            var losses = 0
+            var ties = 0
+            var add = 1
+            console.log(keyPressed)
+            console.log(compPick)
+
+
+            if (keyPressed == "r" && compPick == "0"){
+                alert("you picked rock, and the computer picked paper, so you lost!")
+                wins ++
+                alert("wins:"+wins,+"/nlosses:"+losses+"/nties:"+ties)
+            }
+            if (keyPressed == "r" && compPick == "1"){
+                alert("You picked rock, and the computer picked rock, so its a tie.")
+                ties ++
+                alert("wins:"+wins,+"/nlosses:"+losses+"/nties:"+ties)
+            }
+            if (keyPressed == "r" && compPick == "2") {
+                alert("You picked rock, and the computer picked scisors, so you win!")
+                losses ++
+                alert("wins:"+wins,+"/nlosses:"+losses+"/nties:"+ties)
+            }
+        
+            if (keyPressed == "p" && compPick == "0"){
+                alert("you picked paper, and the computer picked paper, so its a tie.")
+                ties++
+                alert("wins:"+wins,+"/nlosses:"+losses+"/nties:"+ties)
+            }
+            if (keyPressed == "p" && compPick == "1"){
+                alert("You picked paper, and the computer picked rock, so you won!")
+                wins++
+                alert("wins:"+wins,+"/nlosses:"+losses+"/nties:"+ties)
+            }
+            if (keyPressed == "p" && compPick == "2") {
+                alert("You picked paper, and the computer picked scisors, so you lost.")
+                losses++
+                alert("wins:"+wins,+"/nlosses:"+losses+"/nties:"+ties)
+            }
+        
+            if (keyPressed == "s" && compPick == "0"){
+                alert("you picked scisors, and the computer picked paper, so you won!")
+                wins++
+                alert("wins:"+wins,+"/nlosses:"+losses+"/nties:"+ties)
+            }
+            if (keyPressed == "s" && compPick == "1"){
+                alert("You picked scisors, and the computer picked rock, so you lost.")
+                ties++
+                alert("wins:"+wins,+"/nlosses:"+losses+"/nties:"+ties)
+            }
+            if (keyPressed == "s" && compPick == "2") {
+                alert("You picked scisors, and the computer picked scisors, so its a tie.")
+            }
+        
+        
+        
+        }
+    </script>
+    </body>
+</html>
